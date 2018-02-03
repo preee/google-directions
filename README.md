@@ -1,9 +1,4 @@
 # Google Directions
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-
 PHP Wrapper for Google directions API.
 
 NOTE: still considered under development, which means that things might change a lot. If you want to use it anyway, just remember that future releases might contain breaking changes.
@@ -70,8 +65,6 @@ $duration = $direction->getDuration();
 
 ```
 
-
-
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
@@ -85,10 +78,6 @@ $ composer test
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security
-
-If you discover any security related issues, please email hello@palmabit.com instead of using the issue tracker.
 
 ## License
 
