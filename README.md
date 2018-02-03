@@ -3,12 +3,8 @@
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
-
 
 PHP Wrapper for Google directions API.
-For further information see https://developers.google.com/maps/documentation/directions/intro
 
 NOTE: still considered under development, which means that things might change a lot. If you want to use it anyway, just remember that future releases might contain breaking changes.
 
@@ -17,7 +13,7 @@ NOTE: still considered under development, which means that things might change a
 Via Composer
 
 ``` bash
-$ composer require palmabit/google-directions
+$ composer require preee/google-directions
 ```
 
 ## Usage
@@ -94,25 +90,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 If you discover any security related issues, please email hello@palmabit.com instead of using the issue tracker.
 
-## Credits
-
-- [Palmabit Srl][link-author]
-- [All Contributors][link-contributors]
-
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-[ico-version]: https://img.shields.io/packagist/v/palmabit/google-directions.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Palmabit-IT/google-directions/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/Palmabit-IT/google-directions.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/Palmabit-IT/google-directions.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/Palmabit-IT/google-directions.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/palmabit/google-directions
-[link-travis]: https://travis-ci.org/Palmabit-IT/google-directions
-[link-scrutinizer]: https://scrutinizer-ci.com/g/Palmabit-IT/google-directions/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/Palmabit-IT/google-directions
-[link-author]: https://github.com/Palmabit-IT
-[link-contributors]: ../../contributors
