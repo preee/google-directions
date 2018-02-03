@@ -71,7 +71,12 @@ abstract class Api implements \Palmabit\GoogleDirections\Interfaces\Api
         if (in_array($field, $fields)) {
             if ($prefix == 'set') {
               if ($arguments[0] !== null) {
-                  $this->fieldSettings[$field] = $arguments[0];
+                  if(is_array($arguments[0])){
+                      $this->fieldSettings[$field] = implode('|', $arguments[0]);
+                  } else {
+                      $this->fieldSettings[$field] = $arguments[0];
+                  }
+
                   return $this;
               }
               throw new \InvalidArgumentException('Insert a valid value on custom fields');

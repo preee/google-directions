@@ -10,7 +10,8 @@ class Directions extends Api
 
     protected static $optionalFields = [
         'origin',
-        'destination'
+        'destination',
+        'waypoints'
     ];
 
     public static function getOptionalFields()
