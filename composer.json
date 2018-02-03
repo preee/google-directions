@@ -1,18 +1,26 @@
 {
-    "name": "palmabit/google-directions",
-    "description": "PHP Wrapper for Google directions API.",
+    "name": "preee/google-directions",
+    "description": "PHP Wrapper for Google directions API. Replaces and adds more features to the unmaintained package from Palmabit-IT",
     "keywords": [
         "distance",
         "google-directions"
     ],
-    "homepage": "https://github.com/Palmabit-IT/google-directions",
+    "homepage": "https://github.com/preee/google-directions",
     "license": "MIT",
-    "authors": [{
-        "name": "Francesco",
-        "email": "f.falanga@palmabit.com",
-        "homepage": "http://palmabit.com",
-        "role": "Developer"
-    }],
+    "authors": [
+      {
+          "name": "Alper Kaya",
+          "email": "predatortr@gmail.com",
+          "homepage": "https://www.alperkaya.com",
+          "role": "Developer"
+      },
+      {
+          "name": "Francesco",
+          "email": "f.falanga@palmabit.com",
+          "homepage": "http://palmabit.com",
+          "role": "Developer"
+      }
+    ],
     "require": {
         "php": ">=5.5.0",
         "guzzlehttp/guzzle": "~6.0"
