@@ -1,4 +1,7 @@
 # Google Directions
+
+[![Build Status](https://travis-ci.org/preee/google-directions.svg?branch=master)](https://travis-ci.org/preee/google-directions)
+
 PHP Wrapper for Google directions API.
 
 NOTE: still considered under development, which means that things might change a lot. If you want to use it anyway, just remember that future releases might contain breaking changes.
